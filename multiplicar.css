@@ -71,4 +71,10 @@ footer {
         grid-template-columns: 1fr;
     }
 }
-```
+
+.ayuda {
+    margin: 15px 0;
+    color: #d8b4fe;
+    font-size: 14px;
+    line-height: 1.5;
+}
