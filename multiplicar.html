@@ -4,23 +4,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabla del 3</title>
+    <title>Tablas de multiplicar</title>
     <link rel="stylesheet" href="multiplicar.css">
     <script src="multiplicar.js" defer></script>
 </head>
 <body>
 
-    <div class="tabla" id="contenedorTabla">
-        <h1>Tabla de multiplicar del 3</h1>
-        <p class="ayuda">Escribe un número y presiona PROBAR para generar su tabla de multiplicar.</p>
+    <div class="contenedor">
+        <h1>LAS TABLAS DE MULTIPLICAR</h1>
+
         <label for="txtNumero">¿Qué tabla deseas generar?</label>
-        <input type="number" id="txtNumero" placeholder="Ejemplo: 5">
+
+        <input
+            type="number"
+            id="txtNumero"
+            placeholder="Ejemplo: 5"
+        >
+
+        <p class="ayuda">
+            Escribe un número y presiona PROBAR para generar su tabla de multiplicar.
+        </p>
 
         <button class="btn" onclick="generarTablas()">PROBAR</button>
 
-        <div class="tabla">
-
-        </div>
+        <div class="tabla" id="contenedorTabla"></div>
 
         <footer>Creado por: Anthony</footer>
     </div>
